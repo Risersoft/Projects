@@ -1,0 +1,54 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: ProjectsNirvana Web
+  
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: single
+    url: /project-nirvana-web/introduction.html
+    folderitems:
+    -
+  - title: Project
+    output: single
+    url: /project-nirvana-web/project.html
+    folderitems:
+    -
+  - title: Task
+    output: single
+    url: /project-nirvana-web/task.html
+    folderitems:
+    -
+  - title: Forum Post
+    output: single
+    url: /project-nirvana-web/forum-post.html
+    folderitems:
+    -
+  - title: Work Item
+    output: single
+    url: /project-nirvana-web/work-item.html
+    folderitems:
+    -
+  - title: Calendar Event
+    output: single
+    url: /project-nirvana-web/calendar-event.html
+    folderitems:
+    -
+
+  
