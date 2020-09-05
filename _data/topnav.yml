@@ -20,10 +20,12 @@ topnav_dropdowns:
         - title: Publisher
           external_url: http://www.risersoft.com/
         
-    - title: Products
+    - title: Modules
       folderitems:
         - title: ProjectsNirvana Web
           url: /project-nirvana-web/introduction.html
+        - title: iKakaBot
+          url: /bot/introduction.html
         
         
           
