@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "risersoft.shared.web.mvc", "..\Common\Web\risersoft.shared.web.mvc\risersoft.shared.web.mvc.csproj", "{E0CC17DC-880D-47B0-B8F5-1C981F76C662}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.mxform", "..\Common\Forms\risersoft.app.mxform\risersoft.app.mxform.vbproj", "{0E5882D2-22B1-4716-99DF-680A77AE3E19}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.reports.erp", "..\Common\Reports\risersoft.app.reports.erp\risersoft.app.reports.erp.vbproj", "{CAD33710-07BC-4C86-AF4C-3A24BA8AB6BA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProjectsNirvana", "Web\ProjectsNirvana\ProjectsNirvana.vbproj", "{E9ADEAC6-1790-44A5-A178-F873A1283D67}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "risersoft.app.mxform.prj", "Framework\risersoft.app.mxform.prj\risersoft.app.mxform.prj.vbproj", "{B7399F4A-5181-439F-87D4-EC9188FFC235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0CC17DC-880D-47B0-B8F5-1C981F76C662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CC17DC-880D-47B0-B8F5-1C981F76C662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CC17DC-880D-47B0-B8F5-1C981F76C662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CC17DC-880D-47B0-B8F5-1C981F76C662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5882D2-22B1-4716-99DF-680A77AE3E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD33710-07BC-4C86-AF4C-3A24BA8AB6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD33710-07BC-4C86-AF4C-3A24BA8AB6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD33710-07BC-4C86-AF4C-3A24BA8AB6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD33710-07BC-4C86-AF4C-3A24BA8AB6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9ADEAC6-1790-44A5-A178-F873A1283D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9ADEAC6-1790-44A5-A178-F873A1283D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9ADEAC6-1790-44A5-A178-F873A1283D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9ADEAC6-1790-44A5-A178-F873A1283D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7399F4A-5181-439F-87D4-EC9188FFC235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7399F4A-5181-439F-87D4-EC9188FFC235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7399F4A-5181-439F-87D4-EC9188FFC235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7399F4A-5181-439F-87D4-EC9188FFC235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A87586DC-4BD0-4ACD-85DF-29AD16C267E9}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rsds.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Auth\\Forms\\risersoft.app.mxform\\risersoft.app.mxform.vbproj
+		SccProjectName1 = ../Auth/Forms/risersoft.app.mxform
+		SccLocalPath1 = ..\\Auth\\Forms\\risersoft.app.mxform
+		SccProjectUniqueName2 = ..\\Auth\\Reports\\risersoft.app.reports.erp\\risersoft.app.reports.erp.vbproj
+		SccProjectName2 = ../Auth/Reports/risersoft.app.reports.erp
+		SccLocalPath2 = ..\\Auth\\Reports\\risersoft.app.reports.erp
+		SccProjectUniqueName3 = ..\\Auth\\Framework\\risersoft.shared.web.mvc\\risersoft.shared.web.mvc.csproj
+		SccProjectName3 = ../Auth/Framework/risersoft.shared.web.mvc
+		SccLocalPath3 = ..\\Auth\\Framework\\risersoft.shared.web.mvc
+		SccProjectUniqueName4 = Framework\\risersoft.app.mxform.prj\\risersoft.app.mxform.prj.vbproj
+		SccProjectName4 = Framework/risersoft.app.mxform.prj
+		SccLocalPath4 = Framework\\risersoft.app.mxform.prj
+		SccProjectUniqueName5 = Web\\ProjectsNirvana\\ProjectsNirvana.vbproj
+		SccProjectName5 = Web/ProjectsNirvana
+		SccLocalPath5 = Web\\ProjectsNirvana
+	EndGlobalSection
+EndGlobal

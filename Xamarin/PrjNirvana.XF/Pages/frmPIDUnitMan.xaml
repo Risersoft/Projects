@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<framework:BasePage
+    xmlns:framework="clr-namespace:Risersoft.Framework.Pages.Framework;assembly=Risersoft.Framework"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:crenderer="clr-namespace:PrjNirvana.XF.CRenderer"
+             mc:Ignorable="d"
+             x:Class="PrjNirvana.XF.Pages.frmPIDUnitMan" Title="Add Project">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout  BackgroundColor="White" Padding="10" Spacing="20">
+            <StackLayout>
+                    <Label Text="Customer" HorizontalOptions="FillAndExpand" Margin="0,20,0,0"/>
+                    <Entry HorizontalOptions="FillAndExpand" FontSize="Medium"  Text="{Binding CustomerMan}"/>
+                    <Label Text="Project" HorizontalOptions="FillAndExpand"/>
+                    <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding ProjectNameMan}"/>
+                    <Label Text="Order Date" HorizontalOptions="FillAndExpand" />
+                    <DatePicker HorizontalOptions="FillAndExpand" TextColor="DodgerBlue" Date="{Binding OrderDateMan}"/>
+                    <Label Text="Order No." HorizontalOptions="FillAndExpand"/>
+                    <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding OrderNumMan}"/>
+                    <Label Text="Work Order No." HorizontalOptions="FillAndExpand" />
+                    <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding WorkOrderID}"/>
+                    <Label Text="Division" HorizontalOptions="FillAndExpand"/>
+                    <Picker Title="Select a Division" TitleColor="DodgerBlue" SelectedItem="{Binding DivisionName}" ItemsSource="{Binding dsCombo_Division}"  ItemDisplayBinding="{Binding DivisionName}" >
+                    </Picker>
+                </StackLayout>
+            <StackLayout>
+                    <Label Text="General" FontSize="20" FontAttributes="Bold" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                    <Label Text="File No." HorizontalOptions="FillAndExpand" Margin="0,10,0,0"/>
+                    <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding FileNum}"/>
+                    <Label Text="File Vol." HorizontalOptions="FillAndExpand"/>
+                    <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding FileVol}"/>
+                    <Label Text="Design Date" HorizontalOptions="FillAndExpand"/>
+                    <DatePicker HorizontalOptions="FillAndExpand" TextColor="DodgerBlue" Date="{Binding DesignDate}"/>
+                    <Label Text="Scope of Work" HorizontalOptions="FillAndExpand"/>
+                    <Entry HorizontalOptions="FillAndExpand" FontSize="Medium" Text="{Binding WOInfo}"/>
+                    <Label Text="Remarks" HorizontalOptions="FillAndExpand"/>
+                    <crenderer:TextBox HeightRequest="80" FontSize="Medium" HorizontalOptions="FillAndExpand" Text="{Binding Remarks}"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Mark this Work Order as complete" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+                        <CheckBox VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" IsChecked="{Binding IsCompleted}"/>
+                    </StackLayout>
+                </StackLayout>
+                <Button Text="Save" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"/>
+            </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</framework:BasePage>
